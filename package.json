@@ -1,0 +1,20 @@
+{
+  "name": "wordable-api",
+  "version": "1.0.0",
+  "description": "proxy API for wordable to wordsapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "Ben Forshey <hello@integrisweb.com> (integrisweb.com)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "5.0.1",
+    "micro": "9.1.4",
+    "node-fetch": "2.1.2"
+  },
+  "devDependencies": {
+    "micro-dev": "2.2.2"
+  }
+}
